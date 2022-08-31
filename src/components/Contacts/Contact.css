@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contacts-container {
+    position: absolute;
+    display: block;
+    width:825px;
+    align-items: center;
+    padding-bottom:50px;
+    bottom: 0%;
+}
+
+.icons-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    padding: 0 15px;
+}
+
+button {
+    border: none;
+}
+
+.heart {
+    height: 35px;
+    width: 35px;
+}
+
+.ending-line {
+    text-align: center;
+    margin-left:20px;
+}
+
+.horizontal-line2 {
+    background-color: var(--dark);
+    color: var(--dark);
+    height: 3px;
+    width: 825px;
+    margin-bottom: 15px;
+}
+
+.contact-icons {
+    background-color: var(--light);
+    color: var(--light);
+    height: 40px;
+    width: 40px;
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 400px;
+    }
+
+    .horizontal-line2 {
+        width: 400px;
+    }
+}
+
+
+
+
+/* 
+.container {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: right;
+    position: fixed;
+    left: 2rem;
+    z-index: 3;
+    width: 20%;
+}
+
+.vertical-line {
+    display: inline-block;
+    border-left: 4px solid #e5e0de;
+    margin: 0 10px;
+    height: 8rem;
+}
+
+
+.icons {
+    margin: 0.5rem 0px;
+} */

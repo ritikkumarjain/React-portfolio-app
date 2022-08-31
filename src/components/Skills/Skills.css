@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.background-skills-container {
+    color: var(--light);
+    background-color: var(--dark);
+    height: 100vh;
+}
+
+.skills-container {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.skills-container-name {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.mode{
+    float:left;
+    margin-left: 25px;
+
+}
+
+.mode-icons{
+    height: 50px;
+    width: 50px;
+}
+
+.skills-icons{
+    height: 70px;
+    width:70px;
+    margin: 0px 10px 0px 10px;
+}
